@@ -11,7 +11,7 @@ mv $HOME\AppData\nvim-data{,.bak}
 
 ```Shell
 winget install Neovim.Neovim zoxide eza-community.eza junegunn.fzf \
-        sharkdp.bat sharkdp.fd CoreyButler.NVMforWindows
+        sharkdp.bat sharkdp.fd CoreyButler.NVMforWindows zig.zig
 ```
 
 ## 下載設定
