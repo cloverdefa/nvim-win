@@ -35,6 +35,11 @@ return {
         "git_config",
         "gitcommit",
         "gitignore",
+        "vim",
+        "vimdoc",
+        "json",
+        "yaml",
+        "dockerfile",
       },
       incremental_selection = {
         enable = true,
