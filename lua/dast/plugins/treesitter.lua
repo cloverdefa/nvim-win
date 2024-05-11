@@ -41,6 +41,7 @@ return {
         "yaml",
         "dockerfile",
         "regex",
+        "zig",
       },
       incremental_selection = {
         enable = true,
