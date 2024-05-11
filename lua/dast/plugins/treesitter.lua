@@ -40,6 +40,7 @@ return {
         "json",
         "yaml",
         "dockerfile",
+        "regex",
       },
       incremental_selection = {
         enable = true,
