@@ -117,14 +117,6 @@ return {
           on_attach = on_attach,
         })
       end,
-      ["powershell_es"] = function()
-        -- configure powershell language server
-        lspconfig["powershell_es"].setup({
-          capabilities = capabilities,
-          filetypes = { "ps1" },
-          on_attach = on_attach,
-        })
-      end,
     })
   end,
 }
