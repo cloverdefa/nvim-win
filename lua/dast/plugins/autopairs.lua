@@ -17,7 +17,6 @@ return {
         java = false, -- don't check treesitter on java
         sh = false, -- enable autopairs in all shell script treesitter nodes
         zsh = false,
-        ps1 = false,
       },
     })
 
