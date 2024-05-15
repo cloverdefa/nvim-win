@@ -15,19 +15,17 @@ Rename-Item -Path "$HOME\.cache\nvim" -NewName "nvim.bak"
 
 ```PowerShell
 # 安裝 font-hack-nerd-font
-winget install --id NerdFonts.Hack -e
+winget install -e --id SourceFoundry.HackFonts
 
 # 安裝軟體包
-winget install --id neovim.neovim -e
-winget install --id marcwrobel.zoxide -e
-winget install --id vezz.smart-eza -e
+winget install --id Neovim.Neovim -e
+winget install --id ajeetdsouza.zoxide -e
+winget install --id=eza-community.eza -e
 winget install --id junegunn.fzf -e
 winget install --id sharkdp.bat -e
 winget install --id sharkdp.fd -e
 winget install --id BurntSushi.ripgrep -e
 winget install --id dandavison.delta -e
-winget install --id pyenv.pyenv -e
-winget install --id python.poetry -e
 winget install --id nvm-sh.nvm -e
 winget install --id gnu.tmux -e
 
