@@ -6,7 +6,7 @@ return {
     "mfussenegger/nvim-dap",
   },
   config = function()
-    require("dap-python").setup("$env:APPDATALOCAL\\Programs\\Python\\Python312\\python.exe")
+    require("dap-python").setup("C:\\Users\\clove\\AppData\\Local\\Programs\\Python\\Python312\\python.exe")
     local keymap = vim.keymap
 
     local dap = require("dap")

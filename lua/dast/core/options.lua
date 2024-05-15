@@ -43,6 +43,6 @@ opt.splitbelow = true -- 水平分割窗口向下分割
 -- 關閉交換檔案
 opt.swapfile = false
 
-vim.g.python3_host_prog = "$env:APPDATALOCAL\\Programs\\Python\\Python312\\python.exe"
+vim.g.python3_host_prog = "C:\\Users\\clove\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
 vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
