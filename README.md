@@ -5,10 +5,8 @@
 ## 備份原有設定
 
 ```PowerShell
-Rename-Item -Path "$HOME\.config\nvim" -NewName "nvim.bak"
-Rename-Item -Path "$HOME\.local\share\nvim" -NewName "nvim.bak"
-Rename-Item -Path "$HOME\.local\state\nvim" -NewName "nvim.bak"
-Rename-Item -Path "$HOME\.cache\nvim" -NewName "nvim.bak"
+Rename-Item -Path "$HOME\AppData\Local\nvim" -NewName "nvim.bak"
+Rename-Item -Path "$HOME\AppData\Local\nvim-data" -NewName "nvim-data.bak"
 ```
 
 ## 安裝程式(已安裝可跳過)
