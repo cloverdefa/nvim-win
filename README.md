@@ -5,8 +5,8 @@
 ## 備份原有設定
 
 ```PowerShell
-Rename-Item -Path "$HOME\AppData\Local\nvim" -NewName "nvim.bak"
-Rename-Item -Path "$HOME\AppData\Local\nvim-data" -NewName "nvim-data.bak"
+Rename-Item -Path "$env:LOCALAPPDATA\nvim" -NewName "nvim.bak"
+Rename-Item -Path "$env:LOCALAPPDATA\nvim-data" -NewName "nvim-data.bak"
 ```
 
 ## 安裝程式(已安裝可跳過)
@@ -46,5 +46,5 @@ npm install -g neovim tree-sitter-cli
 ## 下載設定
 
 ```PowerShell
-git clone https://github.com/cloverdefa/nvim-win.git ~\AppData\Local\nvim
+git clone https://github.com/cloverdefa/nvim-win.git $env:LOCALAPPDATA\nvim
 ```
