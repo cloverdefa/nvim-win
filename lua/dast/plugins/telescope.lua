@@ -3,7 +3,7 @@ return {
   branch = "0.1.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    { "nvim-telescope/telescope-fzf-native.nvim", build = "zig init" },
+    { "nvim-telescope/telescope-fzf-native.nvim", build = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build" },
     "nvim-tree/nvim-web-devicons",
     "folke/todo-comments.nvim",
   },
@@ -24,7 +24,7 @@ return {
       },
     })
 
-    -- telescope.load_extension("fzf")
+    telescope.load_extension("fzf")
     telescope.load_extension("noice")
     telescope.load_extension("notify")
 
