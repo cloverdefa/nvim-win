@@ -14,7 +14,6 @@ return {
     -- insert_at_start = true,
     -- …etc.
     animation = true,
-    auto_hide = false,
     clickable = true,
     highlight_visible = true,
     icons = {
