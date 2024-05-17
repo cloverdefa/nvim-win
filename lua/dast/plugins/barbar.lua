@@ -14,10 +14,7 @@ return {
     -- insert_at_start = true,
     -- …etc.
     animation = true,
-    auto_hide = false,
     clickable = true,
-    focus_on_close = "left",
-    hide = { extensions = true, inactive = true },
     highlight_visible = true,
     icons = {
       -- Configure the base icons on the bufferline.
