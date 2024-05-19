@@ -1,5 +1,6 @@
 return {
   "folke/todo-comments.nvim",
+  -- cond = false,
   event = { "BufReadPre", "BufNewFile" },
   dependencies = { "nvim-lua/plenary.nvim" },
   config = function()
