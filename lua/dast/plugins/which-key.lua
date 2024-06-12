@@ -6,6 +6,8 @@ return {
   init = function()
     vim.o.timeout = true
     vim.o.timeoutlen = 500
+    -- unmap gc keymap
+    vim.api.nvim_set_keymap("n", "gc", "", { noremap = true, silent = true })
   end,
   opts = {
     -- your configuration comes here
