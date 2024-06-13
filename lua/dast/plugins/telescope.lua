@@ -5,8 +5,8 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim",
     {
-      "nvim-telescope/telescope-fzf-native.nvim",
-      build = "zig build",
+      -- "nvim-telescope/telescope-fzf-native.nvim",
+      -- build = "zig build",
     },
     "nvim-tree/nvim-web-devicons",
     "folke/todo-comments.nvim",
