@@ -17,7 +17,6 @@ return {
         bypass_save_filetypes = { "alpha", "dashboard" }, -- or whatever dashboard you use
         suppress_dirs = { "~/", "~/Downloads", "~/Documents", "~/Desktop/" },
       })
-      vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
     end,
     args_allow_files_auto_save = function()
       local supported = 0
@@ -34,5 +33,6 @@ return {
       -- If we have more 2 or more supported buffers, save the session
       return supported >= 2
     end,
+    vim.o.sessionoptions == "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions",
   },
 }
