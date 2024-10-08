@@ -18,13 +18,6 @@ return {
         },
       },
     })
-    vim.keymap.set("n", "<leader>nc", function()
-      require("noice").cmd("dismiss")
-    end)
-
-    vim.keymap.set("n", "<leader>ni", function()
-      require("noice").cmd("history")
-    end)
   end,
   dependencies = {
     "MunifTanjim/nui.nvim",
