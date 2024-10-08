@@ -5,8 +5,6 @@ return {
   init = function()
     vim.o.timeout = true
     vim.o.timeoutlen = 300
-    --BUG: conflicting keymaps "gc"
-    -- unmap gc keymap
   end,
   opts = {
     -- your configuration comes here

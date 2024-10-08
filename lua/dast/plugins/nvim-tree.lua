@@ -1,5 +1,6 @@
 return {
   "nvim-tree/nvim-tree.lua",
+  -- cond = false,
   dependencies = "nvim-tree/nvim-web-devicons",
   config = function()
     local nvimtree = require("nvim-tree")
@@ -7,6 +8,9 @@ return {
     -- recommended settings from nvim-tree documentation
     vim.g.loaded_netrw = 1
     vim.g.loaded_netrwPlugin = 1
+
+    -- optionally enable 24-bit colour
+    vim.opt.termguicolors = true
 
     nvimtree.setup({
       view = {
